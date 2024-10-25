@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 if (!process.env.TS_SECRET || process.env.TS_SECRET == "secret") {
-	console.error("ERROR: ThoughtSpot Secret Missing from env file. See README.txt");
+	console.error("ERROR: ThoughtSpot Secret Missing from env file. See README.md");
 	process.exit();
 }
 
